@@ -5,7 +5,7 @@
 }
 body {
   font-family: Tahoma, sans-serif, Verdana, Geneva;
-  background: url(project3.jpg);
+  background-image: url("./images/project3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

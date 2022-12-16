@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100vh;
-  background: url(library.jpg);
+  background: url(./images/library.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
