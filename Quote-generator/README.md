@@ -1,3 +1,3 @@
 # Quote Generator
 
-![Screen shot of the Quote generator page](./images/quote.png)
+![Screen shot of the Quote generator page](./public/images/quote.png)
