@@ -16,7 +16,7 @@ body {
 }
 .accordian {
   border: 1px solid white;
-  width: 70%;
+  width: calc(100% - 1.5rem);
   background-color: white;
   padding: 30px;
   border-radius: 10px;
@@ -66,4 +66,18 @@ body {
 .accordian .content.active .question::after {
   content: "-";
   font-size: 26px;
+}
+
+/* 600px */
+@media (min-width: 37.5em) {
+  .accordian {
+    width: calc(100% - 12rem);
+  }
+}
+
+/* 1000px */
+@media (min-width: 62.5em) {
+  .accordian {
+    width: calc(100% - 40rem);
+  }
 }
