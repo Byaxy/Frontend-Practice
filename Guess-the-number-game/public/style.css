@@ -26,7 +26,12 @@ header a:hover {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  width: calc(100% - 2rem);
+  height: 100%;
+  margin-inline: auto;
+  margin-top: 60px;
 }
 main h1 {
   font-size: 6rem;
@@ -34,7 +39,7 @@ main h1 {
   color: #00975a;
 }
 main div input {
-  width: 400px;
+  max-width: 400px;
   padding: 15px 30px;
   border: 2px solid #00463d;
   margin-bottom: 20px;
@@ -43,7 +48,7 @@ main div input {
 }
 #result {
   font-size: 1.1rem;
-  width: 400px;
+  max-width: 400px;
   margin-bottom: 20px;
 }
 .buttons {
