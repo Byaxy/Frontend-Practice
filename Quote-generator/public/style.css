@@ -29,9 +29,10 @@ body {
   border: 1px solid white;
   background-color: white;
   border-radius: 10px;
-  padding: 20px 40px;
-  width: 50%;
+  padding: 40px 30px;
+  width: calc(100% - 2rem);
   box-shadow: 0 0 20px;
+  margin-inline: auto;
 }
 .quote {
   font-size: 1.1rem;
@@ -52,4 +53,17 @@ body {
   background-color: rgb(48, 48, 48);
   color: white;
   cursor: pointer;
+}
+
+/* 600px */
+@media (min-width: 37.5em) {
+  .quote-section {
+    width: calc(100% - 12rem);
+  }
+}
+/* 1000px */
+@media (min-width: 62.5em) {
+  .quote-section {
+    width: calc(100% - 40rem);
+  }
 }
