@@ -21,8 +21,7 @@ Users should be able to:
 
 ### Links
 
-- GitHub: [Code](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://loopstudios-landing-page.web.app/)
 
 ### Built with
 
